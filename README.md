@@ -54,9 +54,7 @@ GET /banking/balance/{accountNumber}
 POST /banking/deposit/{accountNumber}
 
 ```
-{
-   "amount":"$6,500"
-}
+{"amount":"$6,500"}
 ```
 - Desposit Funds Sample Response:
 Response code 200. No response body.
@@ -65,7 +63,5 @@ Response code 200. No response body.
 POST /banking/withdraw/{accountNumber}
 
 ```
-{
-"amount":"$25,000"
-}
+{"amount":"$25,000"}
 ```

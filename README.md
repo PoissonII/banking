@@ -40,6 +40,7 @@ HTTP Response code 200
 ```
 
 - Retrieve Balance Request:
+
 GET /banking/balance/{accountID}
 
 - Retrieve Balance Response:

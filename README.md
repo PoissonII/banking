@@ -24,13 +24,13 @@ Create a simple banking service that supports the following requests which are e
 POST /banking/createAccount
 ```
 {
-	"account":{
-		"account-holder": "Jeb Bartlet",
-		"DOB":"1940-08-03",
-		"SIN":"123-456-789"
-	}, 
-	"account-type":"SAVINGS",
-	"IDtypes":["PASSPORT", "CREDIT CARD"]
+                "account":{
+                                "account-holder": "Jeb Bartlet",
+                                "DOB":"1940-08-03",
+                                "SIN":"123-456-789"
+                }, 
+                "account-type":"SAVINGS",
+                "IDtypes":["PASSPORT", "CREDIT CARD"]
 }
 ```
 - Create Account Sample Response:
@@ -65,3 +65,4 @@ POST /banking/withdraw/{accountNumber}
 ```
 {"amount":"$25,000"}
 ```
+

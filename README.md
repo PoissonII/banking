@@ -33,17 +33,19 @@ POST /banking/createAccount
 	"IDtypes":["PASSPORT", "CREDIT CARD"]
 }
 ```
-- Create account sample response:
+- Create Account Sample Response:
 HTTP Response code 200
 ```
 {"accountNumber":1234567890}
 ```
 
-- Retrieve Balance Request:
+- Retrieve Balance Sample Request:
 
-```GET /banking/balance/{accountNumber}```
+```
+GET /banking/balance/{accountNumber}
+```
 
-- Retrieve Balance Response:
+- Retrieve Balance Sample Response:
 ```
 {"balance": "$550,000"}
 ```
@@ -56,5 +58,14 @@ POST /banking/deposit/{accountNumber}
    "amount":"$6,500"
 }
 ```
-- Desposit Funds Response:
+- Desposit Funds Sample Response:
 Response code 200. No response body.
+
+- Withdraw Funds Sample Request:
+POST /banking/withdraw/{accountNumber}
+
+```
+{
+"amount":"$25,000"
+}
+```

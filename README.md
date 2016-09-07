@@ -41,9 +41,20 @@ HTTP Response code 200
 
 - Retrieve Balance Request:
 
-GET /banking/balance/{accountID}
+```GET /banking/balance/{accountNumber}```
 
 - Retrieve Balance Response:
 ```
 {"balance": "$550,000"}
 ```
+
+- Desposit Funds Request:
+POST /banking/deposit/{accountNumber}
+
+```
+{
+   "amount":"$6,500"
+}
+```
+- Desposit Funds Response:
+Response code 200. No response body.

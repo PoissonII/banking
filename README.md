@@ -60,9 +60,11 @@ POST /banking/deposit/{accountNumber}
 {"amount":"$6,500"}
 ```
 - Desposit Funds Sample Response:
+
 Response code 200. No response body.
 
 - Withdraw Funds Sample Request:
+
 POST /banking/withdraw/{accountNumber}
 
 ```

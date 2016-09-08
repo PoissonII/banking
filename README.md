@@ -9,7 +9,7 @@ Simple banking service that exposes a RESTful API
     - Deposit funds
     - Widthdraw funds
 
-- There should be no UI, we are just creating the service.
+- There should be no UI, we are just creating the service
 - Use SoapUI as a means to invoke the REST services and to create mock responses for all requests.
 - Use Maven to build the project and pacakge it as a WAR.
 - Use JBOSS to host the WAR

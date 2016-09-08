@@ -28,16 +28,18 @@ Simple banking service that exposes a RESTful API
 ###Sample Requests and Responses
 
 - Create account sample request:
+```
 POST /banking/createAccount
 ```
+```
 {
-                "account":{
-                                "account-holder": "Jeb Bartlet",
-                                "DOB":"1940-08-03",
-                                "SIN":"123-456-789"
-                }, 
-                "account-type":"SAVINGS",
-                "IDtypes":["PASSPORT", "CREDIT CARD"]
+	"account":{
+		"account-holder": "Jeb Bartlet",
+		"DOB":"1940-08-03",
+		"SIN":"123-456-789"
+	}, 
+	"account-type":"SAVINGS",
+	"IDtypes":["PASSPORT", "CREDIT CARD"]
 }
 ```
 - Create Account Sample Response:

@@ -2,13 +2,18 @@
 Simple banking service that exposes a RESTful API
 
 ###Requirements
-Create a simple banking service that supports the following requests which are exposed over REST:
+- Create a simple banking service that supports the following requests which are exposed over REST:
 
-- Create new account
-- Retrieve balance
-- Deposit funds
-- Widthdraw funds
-- Transfer funds to existing account
+    - Create new account
+    - Retrieve balance
+    - Deposit funds
+    - Widthdraw funds
+
+- There should be no UI, we are just creating the service.
+- Use SoapUI as a means to invoke the REST services and to create mock responses for all requests.
+- Use Maven to build the project and pacakge it as a WAR.
+- Use JBOSS to host the WAR
+
 
 ###Stack
 - Java 8 (7 is OK)
@@ -17,6 +22,8 @@ Create a simple banking service that supports the following requests which are e
 - Jersey
 - Jersey-Jackson
 - SoapUI
+- JBOSS
+
 
 ###Sample Requests and Responses
 

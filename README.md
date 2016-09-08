@@ -47,7 +47,10 @@ GET /banking/balance/{accountNumber}
 
 - Retrieve Balance Sample Response:
 ```
-{"balance": "$550,000"}
+{
+"accountNumber":"1234567890",
+"balance": "$550,000"
+}
 ```
 
 - Desposit Funds Request:
@@ -68,5 +71,8 @@ POST /banking/withdraw/{accountNumber}
 
 - Withdraw Funds Sample Response:
 ```
-{"balance": "$550,000"}
+{ 
+"accountNumber":"1234567890",
+"balance": "$550,000"
+}
 ```

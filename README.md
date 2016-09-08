@@ -66,3 +66,7 @@ POST /banking/withdraw/{accountNumber}
 {"amount":"$25,000"}
 ```
 
+- Withdraw Funds Sample Response:
+```
+{"balance": "$550,000"}
+```

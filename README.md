@@ -29,7 +29,7 @@ Simple banking service that exposes a RESTful API
 
 - Create account sample request:
 ```
-POST /banking/createAccount
+PUT /banking/createAccount
 ```
 ```
 {

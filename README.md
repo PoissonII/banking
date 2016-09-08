@@ -43,7 +43,6 @@ POST /banking/createAccount
 }
 ```
 - Create Account Sample Response:
-HTTP Response code 200
 ```
 {"accountNumber":1234567890}
 ```
@@ -63,19 +62,25 @@ GET /banking/balance/{accountNumber}
 ```
 
 - Desposit Funds Request:
-POST /banking/deposit/{accountNumber}
 
+```
+POST /banking/deposit/{accountNumber}
+```
 ```
 {"amount":"$6,500"}
 ```
+
 - Desposit Funds Sample Response:
 
+```
 Response code 200. No response body.
+```
 
 - Withdraw Funds Sample Request:
 
+```
 POST /banking/withdraw/{accountNumber}
-
+```
 ```
 {"amount":"$25,000"}
 ```
